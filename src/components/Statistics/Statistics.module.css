@@ -1,0 +1,23 @@
+.statistics-table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.statistics-table-row:nth-child(even) {
+  background-color: #4beef7;
+}
+
+.statistics-table-row:nth-child(4),
+.statistics-table-row:nth-child(5) {
+  font-weight: 700;
+}
+
+.statistics-table-row td {
+  padding: 10px 20px;
+}
+
+.statistics-table-row td:last-child {
+  text-align: right;
+}
